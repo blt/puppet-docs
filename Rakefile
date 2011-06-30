@@ -70,6 +70,16 @@ task :serve_pdf do
   system("rackup config_pdf.ru")
 end
 
+desc "Generate a new puppet.pdf in the project root"
+task :build_pdf do
+  Dir.chdir("source")
+  system("pandoc -r html -w latex --toc --listings --standalone --xetex http://localhost:9292 --template ../pdf_mask/kindle.template -o puppet.tex")
+  system("xelatex puppet.tex")
+  # Yes, again for the Table of Contents. Isn't LaTeX screwy?
+  system("xelatex puppet.tex")
+  Dir.chdir("..")
+  system("cp source/puppet.pdf .")
+end
 
 desc "Build documentation for a new Puppet version"
 task :build => [ 'references:check_version', 'references:fetch_tags', 'references:stub', 'references:puppetdoc', 'references:update_manpages']
