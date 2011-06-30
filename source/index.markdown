@@ -10,11 +10,11 @@ Welcome to the Puppet Labs documentation site. The documentation posted here is 
 
 ### MCollective
 
-For information about MCollective, see the [Marionette Collective documentation](./mcollective/index.html). 
+For information about MCollective, see the [Marionette Collective documentation](./mcollective/index.html).
 
 ### Puppet Dashboard
 
-For information about Puppet Dashboard, see the [Puppet Dashboard documentation](./dashboard/index.html). 
+For information about Puppet Dashboard, see the [Puppet Dashboard documentation](./dashboard/index.html).
 
 * * *
 
@@ -26,7 +26,7 @@ Small documents for getting help fast.
 * <a href="./puppet_core_types_cheatsheet.pdf"><img src="./images/puppet_core_types_cheatsheet_thumbnail.png" style="float: right; margin: 4px;"></a> Core Types Cheat Sheet --- available in [single-page flavor](./puppet_core_types_cheatsheet.pdf) (double-sided), [extra breathing room flavor](./puppet_core_types_cheatsheet_expanded.pdf) (six pages), and [plain web page](http://projects.puppetlabs.com/projects/puppet/wiki/Core_Types_Cheat_Sheet/) flavor
 * [Frequently Asked Questions](./guides/faq.html)
 
-* * * 
+* * *
 
 Learning Puppet
 ---------------
@@ -40,7 +40,7 @@ Learn to use Puppet! New users: start here.
 * [Variables, Facts, and Conditionals](./learning/variables.html) --- read system information to make versatile manifests
 * [Classes and Modules, Part One](./learning/modules1.html) --- start collecting resources into self-contained modules
 
-* * * 
+* * *
 
 Reference Shelf
 ---------------
@@ -65,7 +65,7 @@ These references are automatically generated from the inline documentation in Pu
 
 * [Versioned References](references/) --- inline reference docs from Puppet's past and present
 
-* * * 
+* * *
 
 Puppet Guides
 -------------
@@ -145,7 +145,7 @@ Build your own tools and workflows on top of Puppet.
 * [Puppet Internals](./guides/puppet_internals.html) --- understand how
   Puppet works internally
 
-* * * 
+* * *
 
 Other Resources
 ---------------
@@ -153,18 +153,18 @@ Other Resources
 * [Puppet Wiki & Bug Tracker](http://projects.puppetlabs.com/)
 * [Puppet Patterns (Recipes)](http://projects.puppetlabs.com/projects/puppet/wiki/Recipes)
 
-* * * 
+* * *
 
 Help Improve This Document
 --------------------------
 
 This document belongs to the community and is licensed under the Creative Commons. You can help improve it!
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/us/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="./images/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.
 
 To contribute ideas, problems, or suggestions, simply use the [Contribute](./contribute.html) link.  If you would like to submit your own content, the process is easy.  You can fork the project on <A HREF="http://github.com/puppetlabs/puppet-docs">github</A>, make changes, and send us a pull request.  See the README files in the project for more information.
 
-* * * 
+* * *
 
 Documentation Version
 ---------------------
