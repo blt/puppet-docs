@@ -72,13 +72,16 @@ end
 
 desc "Generate a new puppet.pdf in the project root"
 task :build_pdf do
-  Dir.chdir("source")
-  system("pandoc -r html -w latex --toc --listings --standalone --xetex http://localhost:9292 --template ../pdf_mask/kindle.template -o puppet.tex")
+  Dir.chdir("pdf_output")
+  system("pandoc -r html -w latex --toc --listings --standalone --xetex http://localhost:9292 --template kindle.template -o puppet.tex")
+  system("ln -s $PWD/images ../images")
   system("xelatex puppet.tex")
   # Yes, again for the Table of Contents. Isn't LaTeX screwy?
   system("xelatex puppet.tex")
+  # Clean up hackish symlinks.
+  system("rm ../images")
   Dir.chdir("..")
-  system("cp source/puppet.pdf .")
+  system("cp pdf_output/puppet.pdf .")
 end
 
 desc "Build documentation for a new Puppet version"
