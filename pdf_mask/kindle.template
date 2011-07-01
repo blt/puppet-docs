@@ -6,7 +6,7 @@
 \setlength{\headsep}{1pt}
 \setlength{\footskip}{1pt}
 
-\setstocksize{9in}{7in}
+\setstocksize{183mm}{136.5mm}
 \settrimmedsize{\stockheight}{\stockwidth}{*}
 \settrims{0pt}{0pt}
 \setlrmarginsandblock{1cm}{1cm}{*}
